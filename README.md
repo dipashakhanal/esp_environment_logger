@@ -1,3 +1,4 @@
+
 # Dual-Zone IoT Environmental Logger 
 > A distributed ESP32-Wrover environmental monitoring system featuring an indoor "master" node with local I2C display and remote MQTT data logging to Google Sheets paired with an Outdoor node.
 
@@ -28,3 +29,7 @@ This project implements a wireless dual-zone environmental logging system design
                              [ HTTPS / Webhook ]
                                       v
                              [ Google Sheets (15-min intervals) ]
+=======
+# esp_environment_logger
+A dual-zone ESP32 environmental logger with local I2C display and a synced MQTT Google Sheet.
+
