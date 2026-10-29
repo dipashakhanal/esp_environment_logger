@@ -13,11 +13,9 @@
 #include <SPI.h>
 #include <time.h>
 #include <math.h>
+#include "secrets.h"
 
 
-
-const char* WIFI_SSID = "frontiers_2.4";
-const char* WIFI_PASSWORD = "CLFE4C64A4";
 
 const char* GOOGLE_WEB_APP_URL =
   "https://script.google.com/macros/s/AKfycbzNr_ny0x-OjkAdsRiuIKQm0tH4PzFPpi0F2zzujOQa5xM2Mu2gCbj-CNZG8tQZqJac/exec";

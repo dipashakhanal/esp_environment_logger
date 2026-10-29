@@ -3,10 +3,7 @@
 #include <Wire.h>
 #include <Adafruit_SHT31.h>
 #include <math.h>
-
-const char* WIFI_SSID = "frontiers_2.4";
-
-const char* WIFI_PASSWORD = "PUT_FRONTIERS_PASSWORD_HERE";
+#include "secrets.h"
 
 
 const char* MQTT_SERVER = "broker.hivemq.com";
