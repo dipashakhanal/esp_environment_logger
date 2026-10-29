@@ -17,6 +17,12 @@ This project implements a wireless dual-zone environmental logging system design
 
 ---
 
+## 📊 Live Dashboard
+You can view the real-time environmental data logged by the ESP32 nodes here:
+[View Live Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/1bzZhhgqcaNZR67QA8EV1ULNdBV76X2SWmEw9hCDUZkA/edit?gid=0#gid=0)
+
+---
+
 ## System Architecture & Node Roles
 
 ```text
@@ -32,6 +38,4 @@ This project implements a wireless dual-zone environmental logging system design
 =======
 # esp_environment_logger
 A dual-zone ESP32 environmental logger with local I2C display and a synced MQTT Google Sheet.
-## 📊 Live Dashboard
-You can view the real-time environmental data logged by the ESP32 nodes here:
-[View Live Google Sheets Dashboard](https://docs.google.com/spreadsheets/d/1bzZhhgqcaNZR67QA8EV1ULNdBV76X2SWmEw9hCDUZkA/edit?gid=0#gid=0)
+
